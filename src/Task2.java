@@ -58,7 +58,8 @@ public class Task2 {
         }
         while (doneThree == false);
 
-        System.out.println(gasInTank + pricePerGallon + milesPerGallon);
+        System.out.println(("The cost per 100 miles is " + (100 / milesPerGallon * pricePerGallon)));
+        System.out.println("You can go " + (gasInTank * milesPerGallon) + " miles");
     }
 }
 
